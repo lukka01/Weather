@@ -1,5 +1,5 @@
 import sqlite3, os
-DB_PATH = os.path.join(os.path.abspath(os.path.dirname(__file__)), "weather_data.db")
+DB_PATH = os.path.join(os.path.abspath(os.path.dirname(__file__)),"weather_data.db")
 
 def get_connection():
     conn = sqlite3.connect(DB_PATH)
